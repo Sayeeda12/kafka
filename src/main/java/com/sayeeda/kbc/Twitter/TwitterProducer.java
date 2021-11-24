@@ -61,10 +61,10 @@ public class TwitterProducer {
 
     public Client createTwitterClient(BlockingQueue<String> msgQueue){
 
-        String consumerKey = "XW7DiCCndsTz4gC6VoV4SV4PO";
-        String consumerSecret = "cloBGUAjmWYOxTuADOKN0M7pQD4qiadkYJpLTyw1LmCuvUkLuT";
-        String token = "533935951-rjoVCY2N1WEClYFUkHdUUvXobSUEAptPPIlc9eGg";
-        String secret = "UAU3YvbVugRZfJOQh6leAJVPqHYXONSpdbAW1bK1eSwtI";
+        String consumerKey = ""; //Fill your keys - get them from developer.twitter.com
+        String consumerSecret = "";
+        String token = "";
+        String secret = "";
 
         /** Declare the host you want to connect to, the endpoint, and authentication (basic auth or oauth) */
         Hosts hosebirdHosts = new HttpHosts(Constants.STREAM_HOST);
